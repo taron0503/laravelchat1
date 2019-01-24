@@ -1,0 +1,5 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="Mydebug" type="PhpWebAppRunConfigurationType" factoryName="PHP Web Application" server_name="xdebug" start_url="http://localhost/jobfinder/day7/chat/chat/public/register">
+    <method v="2" />
+  </configuration>
+</component>
