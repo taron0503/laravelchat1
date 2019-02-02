@@ -13,6 +13,7 @@
 use App\Helpers\Contracts\SaveStr;
 use App\User;
 use Illuminate\Http\Request;
+use Carbon\Carbon;
 
 
 //Route::get('/', function (SaveStr $str) {
@@ -24,7 +25,23 @@ use Illuminate\Http\Request;
 //    return view('registration');
 //});
 
-Auth::routes();
+//Auth::routes();
 
-Route::get('/home', 'HomeController@index')->name('home');
-Route::get('/mymethod', 'HomeController@mymethod')->name('mymethod');
+Route::get('/', 'HomeController@index');
+Route::get('login', ['uses'=>'MyAuth\LoginController@showLogin','as'=>'showlogin']);
+Route::post('login', ['uses'=>'MyAuth\LoginController@login','as'=>'login']);
+
+Route::get('logout', ['uses'=>'MyAuth\LoginController@logout','as'=>'logout']);
+
+Route::get('register', ['uses'=>'MyAuth\RegisterController@showRegister','as'=>'showregister']);
+Route::post('register', ['uses'=>'MyAuth\RegisterController@register','as'=>'register']);
+
+Route::get('home', "HomeController@index");
+
+Route::get('showusers', function(){
+    $users = User::all();
+//    $users = cache()->remember("MyUsersKey",Carbon::now()->addMinutes(3), function(){
+//        return User::all();
+//    });
+    return view('showusers',['users'=>$users]);
+});
