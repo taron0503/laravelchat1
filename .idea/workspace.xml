@@ -2,20 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="09102527-dda1-4796-b537-fcb8826c515f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/MyAuth/LoginController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/MyAuth/RegisterController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/2019_01_24_233219_add_login_to_users_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/layouts/myapp.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/myauth/login.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/myauth/register.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations/Mydebug.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/runConfigurations/Mydebug.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Kernel.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Kernel.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/User.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/registration.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/myhome.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -553,12 +540,20 @@
       <workItem from="1548790057403" duration="17385000" />
       <workItem from="1548888989991" duration="11590000" />
       <workItem from="1549058107578" duration="4188000" />
-      <workItem from="1549114313069" duration="3971000" />
+      <workItem from="1549114313069" duration="4306000" />
     </task>
+    <task id="LOCAL-00001" summary="add messages table">
+      <created>1549118641859</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1549118641859</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="146639000" />
+    <option name="totallyTimeSpent" value="146974000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -570,7 +565,8 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27760968" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -618,6 +614,10 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="add messages table" />
+    <option name="LAST_COMMIT_MESSAGE" value="add messages table" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/../../../../../phpMyAdmin/sql.php">
