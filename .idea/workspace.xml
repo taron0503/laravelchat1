@@ -528,9 +528,9 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="PHP Web Page.MyDebugger" />
       <item itemvalue="PHP Web Page.Mydebug" />
       <item itemvalue="PHPUnit.phpunit.xml" />
+      <item itemvalue="PHP Web Page.MyDebugger" />
     </list>
   </component>
   <component name="SvnConfiguration">
