@@ -1,0 +1,20 @@
+/*div{*/
+    /*border:1px solid black;*/
+/*}*/
+
+body{
+    background: linear-gradient(to right, #91EAE4, #86A8E7, #7F7FD5);
+}
+
+.chat_table{
+    height:500px;
+    background-color: rgba(0,0,0,0.4) !important;
+}
+
+.chat_window{
+    background-color: rgba(0,0,0,0.4) !important;
+}
+
+.card-body{
+    overflow-y: auto;
+}
